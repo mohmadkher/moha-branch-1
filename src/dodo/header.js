@@ -1,21 +1,19 @@
-
+import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Header = () => {
-    return (
-        <>
-             <header className="head">
-        <h1 className="title">mohamad</h1>
+  return (
+    <>
+      <header className="head">
+        <Link to="/" className="title">mohamad</Link>
         <div className="a">
-          <a href="/js">JS</a>
-          <a href="/html">Html</a>
-          <a href="/css">Css</a>
+          <NavLink to="/js" className="aa">JS</NavLink>
+          <NavLink to="/html" className="aa">Html</NavLink>
+          <NavLink to="/css" className="aa">Css</NavLink>
         </div>
       </header>
-      <footer>
-          <h5>make by mohmad-alastora</h5>
-        </footer>
-        </>
-    );
-}
+    </>
+  );
+};
 
 export default Header;

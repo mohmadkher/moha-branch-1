@@ -10,11 +10,13 @@
 
 }
 .title{
+    font-size: 35px;
     color: #fff;
     margin: 0 20px;
     flex-grow: 1;
     text-align: center;
 }
+
 .a{
     text-align: center;
     margin: auto 10px;
