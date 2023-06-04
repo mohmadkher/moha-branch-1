@@ -4,9 +4,9 @@ function App() {
     <header className="head">
       <h1 className="title">mohamad</h1>
       <div className="a">
-        <a href="">JS</a>
-        <a href="">Html</a>
-        <a href="">Css</a>
+        <a href="/js">JS</a>
+        <a href="/html">Html</a>
+        <a href="/css">Css</a>
       </div>
     </header>
     <main>
