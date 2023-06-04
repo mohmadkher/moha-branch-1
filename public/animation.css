@@ -1,0 +1,7 @@
+a:hover{
+    border: 2px solid #fff;
+    border-radius: 13px;
+    padding: 8px;
+    color: #fff;
+    transition: 0.2s;
+}
